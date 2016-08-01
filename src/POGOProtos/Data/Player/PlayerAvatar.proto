@@ -4,13 +4,13 @@ package POGOProtos.Data.Player;
 import "POGOProtos/Enums/Gender.proto";
 
 message PlayerAvatar {
-	int32 skin = 2;
-	int32 hair = 3;
-	int32 shirt = 4;
-	int32 pants = 5;
-	int32 hat = 6;
-	int32 shoes = 7;
+	fixed32 skin = 2;
+	fixed32 hair = 3;
+	fixed32 shirt = 4;
+	fixed32 pants = 5;
+	fixed32 hat = 6;
+	fixed32 shoes = 7;
 	.POGOProtos.Enums.Gender gender = 8;
-	int32 eyes = 9;
-	int32 backpack = 10;
+	fixed32 eyes = 9;
+	fixed32 backpack = 10;
 }
